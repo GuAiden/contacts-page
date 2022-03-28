@@ -40,5 +40,19 @@
               "tsx": "never"
             }
         ]
-    }
+    },
+    "globals": {
+        "JSX": true,
+        "React": true,
+        "jsdom": true,
+        "mount": true
+    },
+    "overrides": [
+        {
+          "files": ["*.ts", "*.tsx"],
+          "rules": {
+            "no-undef": "off"
+          }
+        }
+    ]
 }

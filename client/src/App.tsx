@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
+import Section from './components/Section';
+import ContactsPage from './pages/contacts';
 
 function App() {
   return (
-    <div className="text-blue-500">
-      Hello world
-    </div>
+    <Section>
+      <ContactsPage />
+    </Section>
   );
 }
 
