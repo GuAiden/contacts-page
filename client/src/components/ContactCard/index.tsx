@@ -51,7 +51,7 @@ function ContactCard({
           {contact.company.name}
         </div>
       </div>
-      <ContactModal />
+      <ContactModal contact={contact} />
     </div>
   );
 }
