@@ -27,7 +27,7 @@
         "react",
         "@typescript-eslint"
     ],
-    "ignorePatterns": ["tailwind.config.js"],
+    "ignorePatterns": ["tailwind.config.js", "app.js"],
     "rules": {
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx"] }],
         "import/extensions": [

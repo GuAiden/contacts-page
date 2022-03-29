@@ -51,6 +51,11 @@ function ContactCard({
           {contact.company.name}
         </div>
       </div>
+      <div className="flex justify-center pt-3">
+        <div className="text-md text-gray-300">
+          {contact.company.catchPhrase}
+        </div>
+      </div>
       <ContactModal contact={contact} />
     </div>
   );
